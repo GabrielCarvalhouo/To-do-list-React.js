@@ -42,23 +42,36 @@ button {
   cursor: pointer;
   opacity: .8;
   transition: 0.3s;
-  margin: 1px;
+  margin-right: 10px;
 }
 
 button:hover {
   opacity: 1;
 }
 
-/* .todo-list {
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
 
-} */
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .complete {
   background-color: #5cb85c;
 }
 
 .remove {
-  background-color: #d953af;
+  background-color: #d95353;
 }
 
 .todo-form {
